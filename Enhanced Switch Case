@@ -1,0 +1,31 @@
+import java.util.Scanner ;
+class Main{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int month = sc.nextInt();
+        switch(month)
+        {
+            case 1 -> {
+                System.out.println("january month");
+                System.out.println("31 days ");
+            }
+            case 2 -> {
+                System.out.println("feb month");
+                System.out.println("28 days ");
+            }
+            case 3 -> {
+                System.out.println("march month");
+                System.out.println("31 days ");
+            }
+            case 4 -> {
+                System.out.println("april month");
+                System.out.println("30 days ");
+            }
+            default ->
+                System.out.println("kuch bhi matlab");
+            
+                
+        }
+    }
+}
