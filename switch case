@@ -1,0 +1,16 @@
+class Main{
+    public static void main(String args[])
+    {
+        String weather = "rainyj";
+        switch(weather){
+            case  "rainy":
+                System.out.println("take chata");
+                break ;
+            case "sunny":
+                System.out.println("take chasma ");
+                break ;
+            default :
+                System.out.println(" so jao chup chap");
+        }
+    }
+}
