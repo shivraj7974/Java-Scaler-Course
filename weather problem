@@ -1,0 +1,10 @@
+class Main{
+    public static void main(String args[])
+    {
+        String weather = "rainy";
+        if (weather == "rainy")
+        System.out.println("TAke na umbrellaa");
+        else 
+        System.out.println("no need to take ");
+    }
+}
