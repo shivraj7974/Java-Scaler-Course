@@ -1,0 +1,104 @@
+class Main{
+    public static void main(String args[])
+    {
+        String s = "hi shivraj kese ho";
+        System.out.println(s);
+        System.out.println(s.charAt(3));
+    }
+}
+
+// explicit conversion 
+import java.util.*;
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        float a= 25.3455f;
+        int b = (int)a;
+        System.out.println(b);
+    }
+}
+
+//taking input 
+import java.util.Scanner;
+class Main{
+    public static void main(String args[])
+    {
+        System.out.println("enter an digtit");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        System.out.println(x);
+    }
+}
+
+// taking input in all data type /./..................................................
+
+import java.util.Scanner;
+class Main{
+    public static void main(String args[])
+    {
+        System.out.println("enter an digtit");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        System.out.println(x);
+        byte b = sc.nextByte();
+        System.out.println(b);
+        long l = sc.nextLong();
+        System.out.println(l);
+        short s = sc.nextShort();
+        System.out.println(s);
+        char c = sc.next().charAt(0);
+        System.out.println(c);
+        
+    }
+}
+
+
+//simple interest code 
+import java.util.*;
+class Main{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int p = sc.nextInt();
+        int r = sc.nextInt();
+        int t = sc.nextInt();
+        int i = (p*r*t)/100;
+        System.out.println(i);
+    }
+}
+
+/------------------------------------------arithmetic operator -----------------------------------------------
+
+class Main{
+    public static void main(String args[])
+    {
+        int a =10;
+        int b=2;
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/(float)b);
+        System.out.println(a%b);
+    }
+}
+
+
+---------------------------------Relational operator ---------------------------------
+
+
+
+class Main{
+    public static void main(String args[])
+    {
+        int a =10;
+        int b=2;
+        System.out.println(a!=b);
+        System.out.println(a>b);
+        System.out.println(a<b);
+        System.out.println(a>=b);
+        System.out.println(a<=b);
+        System.out.println(a==b);
+   
+    }
+}
