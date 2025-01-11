@@ -1,0 +1,13 @@
+class Main{
+    public static void main(String args[])
+    {
+        String meradost = "rohit";
+        if(meradost=="rohit" | meradost=="shivpal")
+        {
+            System.out.println("badhiya hai fir to ");
+        }
+        else{
+            System.out.println("are yarrr ");
+        }
+    }
+}
