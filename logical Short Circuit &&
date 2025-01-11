@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int age =19;
+		String citizen = "indian";
+		if(age >=18 && citizen == "indian")
+		{
+		    System.out.println("jao vote kro ");
+		}else{
+		    System.out.println("baad me aanaa");
+		}
+	}
+}
