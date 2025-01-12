@@ -1,0 +1,19 @@
+class Main{
+    public static void main(String args[])
+    {
+        int a[] = new int [5];
+        System.out.println("hello bro ");
+        
+        try {
+            int result = 5/0;
+            System.out.println(a[8]);
+        }
+        catch(ArrayIndexOutOfBoundsException | ArithmeticException e)
+        {
+            System.out.println("handling the Exception");
+        }
+        finally{
+            System.out.println("i will run always");
+        }
+    }
+}
