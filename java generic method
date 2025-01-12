@@ -1,0 +1,12 @@
+public class Main{
+    public static void main(String args[])
+    {
+        printData("ha bhai");
+        printData(345);
+        printData('S');
+    }
+    static <E> void printData(E data)
+    {
+        System.out.println(data);
+    }
+}
