@@ -1,0 +1,19 @@
+
+import java.util.ArrayList;
+import java.util.List;
+public class Main
+{
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+		
+		list.add(34);
+		list.add(68);
+		list.add(99);
+        System.out.println(list.get(0)); //zero index ka element aa jayega
+        list.set(1,86);
+        System.out.println(list); // element ko replace krr diyaa 68 to 86
+        list.add(2,2000);
+        System.out.println(list); //second index p 2000 aa jayega baki ki value aage badh jaywgi
+	
+	}
+}
