@@ -1,0 +1,16 @@
+import java.util.Stack;
+import java.util.List;
+public class Main
+{
+	public static void main(String[] args) {
+		Stack<String> shiv = new Stack<>();
+	    shiv.push("shivraj");
+	    shiv.push("Singh");
+	    shiv.push("Hirawat");
+	    System.out.println(shiv);
+	    System.out.println(shiv.pop());
+	    System.out.println(shiv);
+	    System.out.println(shiv.peek()); //top element check krega
+	    System.out.println(shiv.empty());//check krega stack empty hai k ni
+	} 
+}
