@@ -1,0 +1,19 @@
+import java.util.Vector;
+import java.util.List;
+public class Main
+{
+	public static void main(String[] args) {
+		List<String> fruits = new Vector<>();
+		fruits.add("papaya");
+		fruits.add("mango");
+		fruits.add("orange");
+		fruits.add("kiwi");
+		for(int i = 0; i< fruits.size(); i++)
+		{
+		    System.out.println("fruit is "+fruits.get(i));
+		}
+		for(String fruit : fruits){
+		    System.out.println("for each fruit in "+ fruit);
+		}
+	}
+}
