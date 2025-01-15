@@ -1,0 +1,14 @@
+import java.util.Queue;
+import java.util.PriorityQueue;
+class Main{
+    public static void main(String args[])
+    {
+        Queue<Integer> pq = new PriorityQueue<>();
+        pq.add(10);
+        pq.add(90);
+        pq.add(45);
+        System.out.println(pq);
+        System.out.println(pq.poll());
+         System.out.println(pq.poll());
+    }
+}
