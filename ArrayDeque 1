@@ -1,0 +1,15 @@
+import java.util.ArrayDeque;
+
+class Main {
+    public static void main(String[] args) {
+        ArrayDeque<Integer> dq = new ArrayDeque<>();
+        dq.offer(19);
+        dq.offerLast(23);// mtlb add krnaa
+        dq.offerFirst(50);
+        System.out.println(dq);
+        System.out.println(dq.poll());
+        System.out.println(dq.pollLast());
+       System.out.println(dq);
+       System.out.println(dq.peekLast());
+    }
+}
